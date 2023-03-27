@@ -22,11 +22,13 @@ Opening the Gradle Project in Intellij:
 
 Changes to be done in DBeaver
 1. Select the "postgres" from list of option and click "Next"
-2. Once you have installed postgres, the name of your MAC machine will be the super-user
-3. Remember the user which we created for Postgres having user name as "user_2" and password as "test321"
-4. "user_2" will have same set of features as what we have for super-user
-5. Click on postgres on top left side and click Create connection. Provide the database as "sampledb" and username as super-user name. Leave password as blank
-6. Click on "Test Connection" and it should be successful
+2. Create a Database, providing database name as "sampledb"
+3. Once you have installed postgres, the name of your MAC machine will be the super-user
+4. Remember the user which we created for Postgres having user name as "user_2" and password as "test321"
+5. "user_2" will have same set of features as what we have for super-user
+6. Click on postgres on top left side and click Create connection. Provide the database as "sampledb" and username as super-user name. Leave password as blank
+7. Click on "Test Connection" and it should be successful
+8. Expand the "Roles" section under your "sampledb" and create new role as "user_2" and select all checkbox except "Bypass Rls" and click on SAVE button below
 
 Running the project from Intellij:
 1. Goto src->main->java->ThreetierApplication and click on RUN button on top Left. It will start running the project
